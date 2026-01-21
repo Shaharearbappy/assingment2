@@ -94,7 +94,12 @@ header {
     align-items: center;
     justify-content: center;
 }
-
+.btn-hover  {
+  background: #00ff9c;
+  color: black;
+  transform: scale(1.05);
+  
+}
 
 
 
@@ -165,7 +170,7 @@ nav h2 {
 }
 .about-container{
   width:full;
-  max-width: 1600px;
+  
     margin: 0 auto;
     text-align: center;
     background-color: #1A0B2E;
@@ -207,7 +212,7 @@ nav h2 {
 }
 .box{
      width:100%;
- max-width: 1600px;
+
   
     background-color: #230E3D;
     text-align: center;
@@ -418,4 +423,107 @@ opacity: 60%;
 font-size: 16px;
 font-weight: lighter;
 padding-top: 42px;
+}
+.hide{
+    display: none !important;
+}
+@media screen and (max-width:576px) {
+    .heading-container h2{
+        font-size: 28px;
+
+    }
+    .heading-container p{
+        font-size: 11px;
+        padding: 8px;
+    }
+    .about-info{
+       display: grid;
+       grid-template-columns: repeat(2 ,1fr);
+      
+       padding-top: 5px;
+    }
+    .card-info p{
+        padding-bottom: 8px;
+        
+    }
+    .box .box-heading{
+        padding-top: 46px;
+        font-size: 15px;
+    }
+    .card-du{
+        flex-direction: column;
+    }
+    .card-container{
+        width: 342px;
+       padding-bottom: 60px;
+    }
+    .card-container h3, .last-text{
+        padding: 0%;
+        font-size: 17px;
+
+    }
+    .last-container{
+        padding-top: 40px;
+    }
+    .display{
+        flex-direction: column;
+    }
+    .vd-1{
+        margin-left: 0%;
+    }
+    .last-2nd h2{
+        padding-top: 0%;
+        font-size: 40px;
+    }
+    .last-p-p{
+        flex-direction: column;
+        width: 342px;
+        margin-bottom: 30px;
+    }
+    .last-logo{
+        padding-bottom: 20px;
+    }
+.host {
+    width: 200px;
+    height: 200px;
+    padding-top: 29px;
+    padding-left: 66px;
+    margin-bottom: -20px;
+}
+.footer-h h1{
+    font-size: 38px;
+}
+.footer-l{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   padding: 20px 20px 20px 20px;
+}
+
+.footer-logo{
+    justify-content: center;
+}
+.footer{
+    background-size: cover;
+
+}
+
+#res{
+    flex-direction: row;
+    
+}
+.display{
+    padding: 8px 20px;
+}
+nav h2{
+    font-size: 27px;
+}
+.img-container img{
+    width: 250px;
+    height: 250px;
+}
+
+.text-container h1 {
+    font-size: 48px;
+   
+}
 }
