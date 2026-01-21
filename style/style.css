@@ -540,5 +540,7 @@ element.style {
     .footer{
     
     }
-
+.index{
+    flex-direction: column;
+}
 }
