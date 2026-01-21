@@ -540,7 +540,8 @@ element.style {
     .footer{
     
     }
-.index{
-    flex-direction: column;
-}
+    .net{
+        color: #00FF88;
+    }
+
 }
