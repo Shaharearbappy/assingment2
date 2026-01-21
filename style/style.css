@@ -321,3 +321,62 @@ padding-bottom: 12px;
    color: #00FF88;
    padding-bottom: 24px;
 }
+.last-2nd h2{
+       padding-top: 102px;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: bold;
+}
+.last-p{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+   
+}
+.last-p-p{
+    background-color: #301751ce;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-bottom: 120px;
+    border-radius: 40px;
+    
+}
+.last-p-p h3{
+      color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.last-p-p p{
+    color: #ffffff;
+opacity: 60%;
+font-size: 16px;
+font-weight: lighter;
+padding-right: 24px;
+padding-left: 24px;
+padding-bottom: 12px;
+}
+.host {
+    width: 200px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 40px;
+    margin-bottom: 40px;
+}
+.last-logo{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    
+
+}
+.logo{
+    margin-left: 20px;
+    border: 2px solid #FB09B4
+    ;
+    padding: 10.5px;
+    border-radius: 1000000000px;
+
+}
