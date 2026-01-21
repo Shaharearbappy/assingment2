@@ -57,6 +57,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #ffffff;
 
 
 
@@ -526,4 +527,18 @@ nav h2{
     font-size: 48px;
    
 }
+.card-container{
+  padding: 30px;
+}
+
+element.style {
+}
+.btn {
+  
+    width: 97px;
+    height: 34px;}
+    .footer{
+    
+    }
+
 }
